@@ -61,7 +61,7 @@ body {
   color: rgba(0,0,0,.7);
 }
 
-.nav a.active{
+#about .about, #projects .project, #education .education, #blog .blog{
   color: rgba(0,0,0,.8);
 }
 
