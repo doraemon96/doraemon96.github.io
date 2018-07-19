@@ -82,6 +82,12 @@ body {
   color: rgba(0,0,0,0.8);
 }
 
+.content h3{
+  font-family: monospace;
+  text-align: left;
+  color: rgba(0,0,0,0.8);
+}
+
 .content p{
   font-family: serif;
   font-size: 18px;

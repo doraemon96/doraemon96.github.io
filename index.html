@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <link href="styles.css" type="text/css" rel="stylesheet" src="/css/styles.css?v={random number/string}">
+    <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,16 +34,11 @@
       
       <br>
       
-      <div>
-        <h2>Contact Me</h2>
-        <p class="contact">
-          soncininicolas [at] gmail.com
-          <br>
-          <a href="http://github.com/doraemon96">git.io/doraemon96</a>
-          <br>
-          <a href="http://linkedin.com/in/soncininicolas">linkedin.com/in/soncininicolas</a>
-        </p>
-      </div>
+      <div id="jq_footer"></div>
+      <script>
+        $(function(){$("#jq_footer").load("footer.html");});
+      </script>
+      
     </div>
     
   </body>  
