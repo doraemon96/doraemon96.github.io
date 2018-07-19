@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 <html>
   <head>
     <link href="styles.css" type="text/css" rel="stylesheet" src="/css/styles.css?v={random number/string}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <title>Nicolas Soncini</title>
     <!--Add an icon-->
   </head>
 
-  <body>
-      <h1 id="header">Nicolas Soncini</h1>
-      <h2 class="subheader">Computer Scientist & Programmer</h2>
-    <div class="nav">
-      <ul>
-        <li><a title="About" href="#" class="active">About</a></li>
-        <li><a title="Projects" href="#">Projects</a></li>
-        <li><a title="Education" href="#">Education</a></li>
-        <li><a title="Resume(.pdf)" href="curriculum-vitae.pdf">Resume</a></li>
-        <!-- <a title="Blog" href="#"><li>Blog</li></a> -->
-      </ul>
-    </div>
+  <body id="about">
+    <div id="jq_header"></div>
+    <script>
+      $(function(){$("#jq_header").load("header.html");});
+    </script>
     
     <div class="content">
       <div>
